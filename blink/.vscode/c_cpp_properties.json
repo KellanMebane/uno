@@ -1,0 +1,30 @@
+{
+    "configurations": [
+        {
+            "name": "avr",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/lib/avr/include"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/avr-gcc",
+            "cStandard": "gnu18",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "gcc-arm",
+            "compilerArgs": [
+                "-Os",
+                "-DF_CPU=16000000UL",
+                "-mmcu=atmega328p",
+                "-c",
+                "-c"
+            ],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/**"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}
